@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="menu_header">#ff005eea</color>
+    <color name="poi_edit_name_dialog_background">#00ffffff</color>
+</resources>

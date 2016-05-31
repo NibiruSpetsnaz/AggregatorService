@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Application.Buttons.TextStyle" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="Application.Button.Back" parent="@style/Application.Buttons.TextStyle">
+        <item name="android:background">@drawable/btn_left_arrow_bgr_grey</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ff232323</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Application.Button.OK" parent="@style/Application.Buttons.TextStyle">
+        <item name="android:background">@drawable/btn_rect_bgr_blue</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ff001d47</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Application.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/login_input_field</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Application.Menu.Details.Header.Style" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/menu_header</item>
+        <item name="android:background">@drawable/section_title_container_pullup_menu</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="My.Profile.About.Me.Header" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/menu_header</item>
+        <item name="android:background">@drawable/section_title_container_pullup_menu</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="My.Profile.About.Me.Buttons.TextStyle" parent="@android:style/Widget.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="My.Profile.About.Me.Button.Back" parent="@style/My.Profile.About.Me.Buttons.TextStyle">
+        <item name="android:background">@drawable/btn_left_arrow_bgr_grey</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="My.Profile.About.Me.Button.OK" parent="@style/My.Profile.About.Me.Buttons.TextStyle">
+        <item name="android:background">@drawable/btn_rect_bgr_blue</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="My.Profile.About.Me.Button.ChangePicture" parent="@style/My.Profile.About.Me.Buttons.TextStyle">
+        <item name="android:background">@drawable/btn_rect_bgr_blue</item>
+    </style>
+    <style name="My.Profile.About.Me.TableRow.Column1.TextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="My.Profile.About.Me.TableRow.Column2.TextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="My.Profile.About.Me.TableRow.Column2" parent="@style/My.Profile.About.Me.TableRow.Column2.TextStyle">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="My.Profile.About.Me.TableRow.Column1" parent="@style/My.Profile.About.Me.TableRow.Column1.TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Menu.Last10.Details.Label.Style" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Menu.Trips.Reports.Data.Style" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="myBackgroundStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_poi_edit_name_backgroung</item>
+    </style>
+</resources>
